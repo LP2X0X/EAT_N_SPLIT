@@ -28,7 +28,7 @@ This is a small React project built for learning and practicing state management
 ---
 
 ## 🗂️ Project Structure
-
+```
 src/
 │
 ├── components/
@@ -38,7 +38,7 @@ src/
 │   └── FormSplitBill.js    # Form to split bills with a selected friend
 │
 └── App.js                  # Main component with all state logic
-
+```
 ---
 
 ## 🛠️ Getting Started
@@ -48,14 +48,19 @@ src/
 ```bash
 git clone https://github.com/your-username/eat-n-split.git
 cd eat-n-split
+```
 
 2. Install dependencies
 
+```bash
 npm install
+```
 
 3. Run the development server
 
+```bash
 npm start
+```
 
 Open http://localhost:3000 in your browser to see the app.
 
@@ -63,7 +68,7 @@ Open http://localhost:3000 in your browser to see the app.
 
 📸 Preview
 
-(Optional: Replace with your own screenshot)
+<img width="2381" height="1276" alt="image" src="https://github.com/user-attachments/assets/14b1ab6d-964e-447f-b4a2-495f8d0b8486" />
 
 ⸻
 
