@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# 🧾 Eat N Split — React Practice Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small React project built for learning and practicing state management, component communication, and forms in React. It simulates a simple bill-splitting app among friends.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Add a friend with a name and avatar.
+- Select a friend to split a bill with.
+- Dynamically update each friend's balance based on bill split.
+- Controlled form components.
+- Clean component structure and separation of concerns.
+- Toggle forms for adding friends and splitting bills.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 Concepts Practiced
 
-### `npm test`
+- `useState` for managing component state
+- Passing data and event handlers between parent and child components
+- Controlled form inputs
+- Lifting state up
+- Conditional rendering
+- Reusable button components
+- Simple `id` generation using `crypto.randomUUID()`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🗂️ Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── components/
+│   ├── Button.js           # Reusable button component
+│   ├── FriendList.js       # Friend list UI and logic
+│   ├── FormAddFriend.js    # Form to add new friends
+│   └── FormSplitBill.js    # Form to split bills with a selected friend
+│
+└── App.js                  # Main component with all state logic
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Getting Started
 
-### `npm run eject`
+### 1. Clone the repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/your-username/eat-n-split.git
+cd eat-n-split
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Run the development server
 
-## Learn More
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Open http://localhost:3000 in your browser to see the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+⸻
 
-### Code Splitting
+📸 Preview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+(Optional: Replace with your own screenshot)
 
-### Analyzing the Bundle Size
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📚 Future Improvements (Optional Ideas)
+	•	Persist data with localStorage
+	•	Add animations for form transitions
+	•	Add error messages for invalid input
+	•	Create a dark mode toggle
+	•	Integrate with a backend or Firebase
 
-### Making a Progressive Web App
+⸻
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🙋‍♂️ Author
 
-### Advanced Configuration
+Long Pham — React learner and web developer
+Feel free to reach out or fork the project for your own practice.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+⸻
 
-### Deployment
+🧼 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed for personal or educational use.
