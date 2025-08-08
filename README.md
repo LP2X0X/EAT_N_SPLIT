@@ -22,7 +22,7 @@ This is a small React project built for learning and practicing state management
 - Controlled form inputs
 - Lifting state up
 - Conditional rendering
-- Reusable button components
+- Reusable components
 - Simple `id` generation using `crypto.randomUUID()`
 
 ---
@@ -73,7 +73,6 @@ Open http://localhost:3000 in your browser to see the app.
 ⸻
 
 📚 Future Improvements (Optional Ideas)
-	•	Persist data with localStorage
 	•	Add animations for form transitions
 	•	Add error messages for invalid input
 	•	Create a dark mode toggle
@@ -83,7 +82,7 @@ Open http://localhost:3000 in your browser to see the app.
 
 🙋‍♂️ Author
 
-Long Pham — React learner and web developer
+Long Pham
 Feel free to reach out or fork the project for your own practice.
 
 ⸻
