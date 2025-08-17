@@ -73,16 +73,17 @@ Open http://localhost:3000 in your browser to see the app.
 ⸻
 
 📚 Future Improvements (Optional Ideas)
-	•	Add animations for form transitions
-	•	Add error messages for invalid input
-	•	Create a dark mode toggle
-	•	Integrate with a backend or Firebase
+- Add animations for form transitions
+- Add error messages for invalid input
+- Create a dark mode toggle
+- Integrate with a backend or Firebase
 
 ⸻
 
 🙋‍♂️ Author
 
 Long Pham
+
 Feel free to reach out or fork the project for your own practice.
 
 ⸻
