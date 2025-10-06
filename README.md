@@ -2,8 +2,6 @@
 
 This is a small React project built for learning and practicing state management, component communication, and forms in React. It simulates a simple bill-splitting app among friends.
 
----
-
 ## 🚀 Features
 
 - Add a friend with a name and avatar.
@@ -12,8 +10,6 @@ This is a small React project built for learning and practicing state management
 - Controlled form components.
 - Clean component structure and separation of concerns.
 - Toggle forms for adding friends and splitting bills.
-
----
 
 ## 🧠 Concepts Practiced
 
@@ -25,7 +21,6 @@ This is a small React project built for learning and practicing state management
 - Reusable components
 - Simple `id` generation using `crypto.randomUUID()`
 
----
 
 ## 🗂️ Project Structure
 ```
@@ -39,7 +34,6 @@ src/
 │
 └── App.js                  # Main component with all state logic
 ```
----
 
 ## 🛠️ Getting Started
 
@@ -64,30 +58,25 @@ npm start
 
 Open http://localhost:3000 in your browser to see the app.
 
-⸻
-
-📸 Preview
+## 📸 Preview
 
 <img width="2381" height="1276" alt="image" src="https://github.com/user-attachments/assets/14b1ab6d-964e-447f-b4a2-495f8d0b8486" />
 
-⸻
 
-📚 Future Improvements (Optional Ideas)
+## 📚 Future Improvements (Optional Ideas)
 - Add animations for form transitions
 - Add error messages for invalid input
 - Create a dark mode toggle
 - Integrate with a backend or Firebase
 
-⸻
 
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Long Pham
 
 Feel free to reach out or fork the project for your own practice.
 
-⸻
 
-🧼 License
+## 🧼 License
 
 This project is licensed for personal or educational use.
